@@ -69,9 +69,9 @@ $conn->close();
     <nav class="navbar navbar-expand-lg bg-secondary text-uppercase fixed-top" id="mainNav">
         <div class="container">
             <a class="navbar-brand" href="#page-top">
-                
-            
-            <?php echo $teksten['hi'][$taal]; ?></a>
+
+
+                <?php echo $teksten['hi'][$taal]; ?></a>
 
 
 
@@ -112,11 +112,11 @@ $conn->close();
             <img class="masthead-avatar mb-5" src="assets/img/avataaars.svg" alt="..." />
             <!-- Masthead Heading-->
             <h1 class="masthead-heading text-uppercase mb-0">
-                
-            <?php echo $teksten['welkom'][$taal]; ?>
-        
-        
-        </h1>
+
+                <?php echo $teksten['welkom'][$taal]; ?>
+
+
+            </h1>
             <!-- Icon Divider-->
             <div class="divider-custom divider-light">
                 <div class="divider-custom-line"></div>
@@ -529,7 +529,8 @@ $conn->close();
             </div>
         </div>
     </div>
-    <!-- Bootstrap core JS-->
+
+     <!-- Bootstrap core JS-->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
     <!-- Core theme JS-->
     <script src="js/scripts.js"></script>
